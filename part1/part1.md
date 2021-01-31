@@ -18,7 +18,7 @@ q9:it would still show an error since i doesn't exist outside of for loop.
 
 q10: it would show an error since const is also block-scope. discountedPrice doesn't exist outside of the for loop.
 
-q11: it would print out the finalPrice. the varible finalPrice was declared as a const and the code attempts to change it inside the for loop, which would cause an error. 
+q11: it would print out the finalPrice 0. the varible finalPrice was declared as a const and the code attempts to change it inside the for loop, which would cause an error. 
 
 q12: regardless of all error, the function should return 0 0 0 since finalPrice was declared as const 0 and it wouldn't change within for loop. 
 
